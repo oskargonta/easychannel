@@ -1,64 +1,12 @@
 import React from "react";
 
 import { Button, Img, Line, List, Text } from "components";
-import { useNavigate } from "react-router-dom";
+import Register from "pages/register/register";
 
-const StronagwnaPage = () => {
-const navigate = useNavigate()
-
-  function clickMe() {
-    alert("You clicked me!");
-  }
-
-const navigateToRegister = () =>{
-  navigate("/register")
-}
-
+const MainPage = () => {
   return (
     
     <>
-      <div className="bg-white-A700 flex flex-col font-notosans sm:gap-10 md:gap-10 gap-40 items-center justify-start mx-auto w-full">
-        <header className="bg-teal-900 flex md:flex-col md:gap-10 items-center justify-between px-40 md:px-5 py-6 shadow-bs w-full">
-          <div className="flex flex-row gap-[29px] items-center justify-start w-auto">
-            <Img
-              className="h-5 w-[145px]"
-              src="images/img_frame80.svg"
-              alt="frameEighty"
-            />
-            <div className="flex flex-col gap-2 items-start justify-start w-auto">
-              <Text
-                className="text-[15px] text-blue-50 w-auto"
-                size="txtNotoSansSemiBold15"
-              >
-                Home
-              </Text>
-              <div className="bg-amber-700 h-0.5 rounded-[1px] w-full"></div>
-            </div>
-          </div>
-          <div className="flex sm:flex-1 sm:flex-col flex-row gap-4 items-center justify-start w-auto sm:w-full">
-            <div className="flex flex-row gap-2 items-center justify-start w-auto">
-              <Img className="h-5 w-5" src="images/img_lock.svg" alt="lock" />
-              <Text
-                className="text-[15px] text-blue-50_01 w-auto"
-                size="txtNotoSansMedium15"
-              >
-                support@easychannel.pl
-              </Text>
-            </div>
-            <div className="flex flex-row gap-2 items-start justify-start w-auto">
-              <Button onClick={navigateToRegister}
-                className="!text-teal-900 cursor-pointer font-semibold h-10 leading-[normal] min-w-[122px] shadow-bs1 text-[13px] text-center">
-                Zarejestruj się
-              </Button>
-              <Button
-                className="cursor-pointer font-semibold h-10 leading-[normal] min-w-[101px] text-[13px] text-center"
-                variant="outline"
-              >
-                Zaloguj się
-              </Button>
-            </div>
-          </div>
-        </header>
         <div className="container w-[80%]"> 
         <div className="flex md:flex-col flex-row gap-6 items-start justify-start max-w-[1120px] mx-auto md:px-5 w-full">
           <div className="flex flex-1 flex-col gap-10 items-start justify-start max-w-[643px] w-full">
@@ -112,7 +60,8 @@ const navigateToRegister = () =>{
               </Text>
             </div>
           </div>
-          <div className="bg-blue_gray-100 h-[418px] rounded-[10px] w-[41%]"></div>
+          <Register />
+          {/* <div className="bg-blue_gray-100 h-[418px] rounded-[10px] w-[41%]"></div> */}
         </div>
         <div className="bg-teal-900 flex flex-col md:gap-10 gap-[60px] items-start justify-start md:px-10 px-40 sm:px-5 py-[120px] w-auto md:w-full">
           <Text
@@ -629,66 +578,9 @@ const navigateToRegister = () =>{
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-10 items-start justify-start pb-[120px] md:px-10 px-40 sm:px-5 w-auto md:w-full">
-          <div className="bg-amber-700 h-5 max-w-[1120px] mx-auto md:px-5 rounded-sm w-full"></div>
-          <div className="flex sm:flex-col flex-row md:gap-10 items-start justify-between max-w-[1120px] mx-auto w-full">
-            <div className="flex flex-col gap-5 items-start justify-start w-auto" >
-              <Img
-                className="h-6 w-[174px]"
-                src="images/img_frame80.svg"
-                alt="frameEighty_Two"
-              />
-              <Text
-                className="leading-[22.00px] text-[15px] text-gray-900_02"
-                size="txtNotoSansMedium15Gray90002"
-              >
-                <>
-                
-                Kai Offermanns
-                <br />
-                Osterfeld 10
-                <br />
-                24852 Eggebek
-                <br />
-                Niemcy
-
-                </>
-              </Text>
-            </div>
-            <div className="flex flex-col gap-3 items-start justify-start w-auto">
-              <div className="flex flex-row gap-2 items-center justify-start w-auto">
-                <Img
-                  className="h-6 w-6"
-                  src="images/img_callblack24dp.svg"
-                  alt="callblack24dp"
-                />
-                <Text
-                  className="text-gray-900_02 text-xl w-auto"
-                  size="txtNotoSansBold20Gray90002"
-                >
-                  + 49 175 675 1685
-                </Text>
-              </div>
-              <div className="flex flex-row gap-2 items-center justify-start w-auto">
-                <Img
-                  className="h-6 w-6"
-                  src="images/img_lock.svg"
-                  alt="lock_Two"
-                />
-                <Text
-                  className="text-gray-900_02 text-xl w-auto"
-                  size="txtNotoSansBold20Gray90002"
-                >
-                  support@easychannel.pl
-                </Text>
-              </div>
-            </div>
-            </div>
-          </div>
         </div>
-      </div>
     </>
   );
 };
 
-export default StronagwnaPage;
+export default MainPage;

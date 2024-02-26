@@ -46,7 +46,7 @@ const Register = () => {
     </div>
         <b>Rejestracja</b><br/>
         
-        <input type="text" value={login} onChange={handleNameChange} placeholder="Imie"/><br/>
+        <input type="text" value={login} onChange={handleNameChange} placeholder="Imie" /><br/>
         <input type="text" value={surname} onChange={handleSurnameChange} placeholder="Nazwisko"/><br/>
         <input type="text" value={phone} onChange={handlePhoneChange} placeholder="Nr Telefonu"/>
         </>
