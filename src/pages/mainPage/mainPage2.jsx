@@ -105,97 +105,115 @@ const MainPage2 = () => {
                     </Text>
                 </div>
             </div>
-        <div className="">       
-        <List
-              className="IcoList"
-              orientation="vertical"
-            >
-              <div className="">
-                <div className="">
-                  <Img
-                    className="h-[47px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logofewodirekt847500fe.png"
-                    alt="logofewodirektEight"
-                  />
-                </div>
-                <div className="">
-                  <Img
-                    className="h-[54px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logotuivillasa6a164b6.png"
-                    alt="logotuivillasaSix"
-                  />
-                </div>
-                <div className="">
-                  <Img
-                    className="h-[33px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logobookingdafd046f.png"
-                    alt="logobookingdafd"
-                  />
-                </div>
-                <div className="">
-                  <Img
-                    className="h-[37px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logoholidud9d53227.png"
-                    alt="logoholidud9dFiftyThree"
-                  />
-                </div>
-                <div className="">
-                  <Img
-                    className="h-[68px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logohometogo20218b6cc88e.png"
-                    alt="logohometogo202"
-                  />
-                </div>
-                <Img
-                  className="h-[72px] w-[165px]"
-                  src="images/img_frame22.svg"
-                  alt="frameTwentyTwo"
-                />
+        <div className="IcoContainer">
+          <List className="IcoList">
+            <div className="Ico1">
+              <Img className = "Img1"
+              src="images/img_logofewodirekt847500fe.png"
+              alt="logofewodirektEight"
+              > 
+              </Img>
+            </div>
+            
+            <div className="Ico2">
+              <Img className = "Img2"
+              src="images/img_logotuivillasa6a164b6.png"
+              alt="logotuivillasaSix"
+              > 
+              </Img>
+            </div>
+
+            <div className="Ico3">
+              <Img className = "Img3"
+              src="images/img_logobookingdafd046f.png"
+              alt="logobookingdafd"
+              > 
+              </Img>
+            </div>
+
+            <div className="Ico4">
+              <Img className = "Img4"
+              src="images/img_logoholidud9d53227.png"
+              alt="logoholidud9dFiftyThree"
+              > 
+              </Img>
+            </div>
+
+            <div className="Ico5">
+              <Img className = "Img5"
+              src="images/img_logohometogo20218b6cc88e.png"
+              alt="logohometogo202"
+              > 
+              </Img>
+            </div>
+
+            <div className="Ico6">
+              <Img className = "Img6"
+              src="images/img_frame22.svg"
+              alt="frameTwentyTwo"
+              > 
+              </Img>
+            </div>
+
+            <Line className="Line" />
+
+            <div className="SecondIcoRow">
+              <div className="Ico7">
+                <Img className = "Img7"
+                src="images/img_logoedomizil25e5cbbd.png"
+                alt="logoedomizil25e"
+                > 
+                </Img>
               </div>
-              <Line className="self-center h-px bg-gray-300 w-full" />
-              <div className="">
-                <div className="">
-                  <Img
-                    className="h-[33px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logoedomizil25e5cbbd.png"
-                    alt="logoedomizil25e"
-                  />
-                </div>
-                <div className="flex flex-col h-[72px] md:h-auto items-center justify-center w-full">
-                  <Img
-                    className="h-[37px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logohomeaway8b82e80e.png"
-                    alt="logohomeaway8bEight"
-                  />
-                </div>
-                <div className="flex flex-col h-[72px] md:h-auto items-center justify-center w-full">
-                  <Img
-                    className="h-[66px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logoferienwohn.png"
-                    alt="logoferienwohn"
-                  />
-                </div>
-                <div className="flex flex-col h-[72px] md:h-auto items-center justify-center w-full">
-                  <Img
-                    className="h-10 md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logohrsholidaysfc6ade9c.png"
-                    alt="logohrsholidays"
-                  />
-                </div>
-                <div className="">
-                  <Img
-                    className="h-[51px] md:h-auto object-cover w-[167px] sm:w-full"
-                    src="images/img_logotravanto2717e12f.png"
-                    alt="logotravanto271"
-                  />
-                </div>
-                <Img
-                  className="h-[72px] w-full"
-                  src="images/img_frame23.svg"
-                  alt="frameTwentyThree"
-                />
+
+              <div className="Ico8">
+                <Img className = "Img8"
+                src="images/img_logohomeaway8b82e80e.png"
+                alt="logohomeaway8bEight"
+                > 
+                </Img>
               </div>
-            </List>
+
+              <div className="Ico9">
+                <Img className = "Img9"
+                src="images/img_logoferienwohn.png"
+                alt="logoferienwohn"
+                > 
+                </Img>
+              </div>
+
+              <div className="Ico10">
+                <Img className = "Img10"
+                src="images/img_logohrsholidaysfc6ade9c.png"
+                alt="logohrsholidays"
+                > 
+                </Img>
+              </div>
+
+              <div className="Ico11">
+                <Img className = "Img11"
+                src="images/img_logotravanto2717e12f.png"
+                alt="logotravanto271"
+                > 
+                </Img>
+              </div>
+
+              <div className="Ico12">
+                <Img className = "Img12"
+                src="images/img_frame23.svg"
+                alt="frameTwentyThree"
+                > 
+                </Img>
+              </div>
+            
+            </div>           
+            </List> 
+            <List>
+              
+            </List>       
+          
+          <Line className="Line" />
+
         </div>
 
         <div className="CooperationProfit">

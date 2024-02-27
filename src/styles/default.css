@@ -151,3 +151,191 @@
     width: 100%; 
     max-width: 1121px;
 }
+
+.IcoList{
+    image-orientation: "vertical";
+}
+
+.Img1 {
+    object-fit: cover; 
+    height: 47px;
+    width: 167px;
+    
+    @media (min-width: 640px) { 
+        width: 100%; 
+       }
+    @media (min-width: 768px) { 
+        height: auto; 
+       }
+}
+
+.Img2 {
+    object-fit: cover; 
+    width: 167px;
+
+    @media (min-width: 640px) { 
+        width: 100%; 
+        }
+    @media (min-width: 768px) { 
+    height: auto; 
+        }
+}
+
+.Img3 {
+    object-fit: cover; 
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+.Img4 {
+    object-fit: cover; 
+    height: 37px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    } 
+}
+
+.Ico5 {
+    object-fit: cover; 
+    height: 68px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+
+}
+
+.Ico6 {
+    height: 72px;
+    width: 165px;
+
+}
+
+.Line {
+    align-self: center; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #D1D5DB; 
+}
+
+.Ico7 {
+    object-fit: cover; 
+    height: 33px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Ico8 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 72px;
+
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+
+}
+.Img8 {
+    object-fit: cover; 
+    height: 37px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Ico9 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 72px;
+
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Img9 {
+    object-fit: cover; 
+    height: 66px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Ico10 {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 72px;
+
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Img10 {
+    object-fit: cover; 
+    height: 40px; 
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Img11 {
+    object-fit: cover; 
+    height: 51px;
+    width: 167px;
+
+    @media (min-width: 640px) { 
+    width: 100%; 
+    }
+    @media (min-width: 768px) { 
+    height: auto; 
+    }
+}
+
+.Img12 {
+    width: 100%; 
+    height: 72px;
+}
